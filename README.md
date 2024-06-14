@@ -1,1 +1,2 @@
 # Simple-Event-Registration-Portal-Challenge
+This project was about creating a simple event registration form. Users can register for a specific event and select their own food preferences when they provide their email.  Afterwards, implement form submisison to validate as well as display the registration details. 
