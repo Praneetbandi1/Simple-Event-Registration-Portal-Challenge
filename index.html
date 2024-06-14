@@ -1,9 +1,28 @@
 <!DOCTYPE html>
 <html lang="en">
+
+
 <head>
     <title>Event Registration Form</title>
-</head> 
-<body>
+    <script src="script.js"></script>
+</head>
 
-</body>
-</html>  
+<body>
+    <h3> User registration form:</h3>
+    <form id="userRegistrationForm">
+
+    <label for="userName">User Name:</label>
+    <input type="text" name="userName" id="userName" required><br><br>
+    <label for="emailAddress">Email Address:</label>
+    <input type="email" name="emailAddress" id="emailAddress" required><br><br>
+    <label for="date"> Date:</label>
+    <input type="date" name="date" id="date" required><br><br>
+    <label> Meal Preference:</label> 
+    <input type="checkbox" name="veg" id="veg" value="veg"> <label >Vegetarian</label>
+    <input type="checkbox" name="nonVeg" id="nonVeg" value="nonVeg"> <label >Non-Vegetarian </label>
+    <input type="checkbox" name="vegan" id="vegan" value="vegan"> <label >Vegan </label><br><br>
+    <input type="submit" value="Submit">
+    </form><br>
+    <div id="userRegistrationSubmission"></div>
+</body> 
+</html>
